@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;    
+    background: #BE2EDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background: rgba(150, 3, 247, 0.396); */
+    padding: 10px 0px;
+   
+}
+nav .navigation {
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+}
+
+.login-container{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+   
+}
+.login-details{
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #f9f9f9;
+}
+
+h1 {
+    font-family: "DM Sans", sans-serif;
+    color: #121212;
+    align-items: center;
+}
+
+/* styling for alternative login */
+.social-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.twitter-btn, .facebook-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.twitter-btn, .facebook-btn i{
+    margin-right: 10px;
+}
+
+.twitter-btn {
+    background: rgba(2, 147, 251, 0.656);
+}
+
+.facebook-btn {
+    background: rgba(0, 47, 255, 0.782);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-input{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fa-solid {
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #888;
+    text-align: center;
+    width: 40px;
+    height: 38px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    outline: none;
+}
+
+/* styling of remember me details */
+.remember-me label{
+    color: #ccc;
+}
+
+form .signup-details{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.forgot-password a{
+    text-decoration: none;
+    
+}
+
+/* styling for login button */
+.login-btn {
+    padding: 10px;
+    background: #BE2EDD;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #f9f9f9;
+    font-weight: bold;
+}
+
+/* Styling for not a member */
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.signup p{
+    color: #121212;
+    
+}
+
+.signup a{
+    color: #f76cc0;
+    text-decoration: none;
+}
